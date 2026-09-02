@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+
+# Production/build output
+dist/
+build/
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Android generated/build files
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/build/
+android/.idea/
+android/local.properties
+android/app/src/main/local.properties
+
+# Capacitor generated files
+.capacitor/
+
+# Java/Gradle
+*.class
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Databases/local data
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets/keys
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json

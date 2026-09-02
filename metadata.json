@@ -1,0 +1,6 @@
+{
+  "name": "GuardianX",
+  "description": "Consent-governed child safety application with cryptographic capability authorization, live OpenStreetMap telemetry, interactive map geofencing studio with perimeter alerts, and immutable security audit logs.",
+  "requestFramePermissions": ["geolocation", "camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
